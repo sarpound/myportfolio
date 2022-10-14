@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.game {
+  background-color: #111111;
+  margin: 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.game-wrap {
+  min-width: 100%;
+  height: 100%;
+  border: solid;
+  color: #292c40;
+  background-color: #f3f4f8;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.game-header {
+  width: 100%;
+  height: 10%;
+  background-color: #dfdfdf;
+  color: #111111;
+}
+
+.circleRed {
+  fill: #ff3141;
+}
+.circleYell {
+  fill: #ffb700;
+}
+.circleGreen {
+  fill: #2ec545;
+}
+.game-contain {
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+  padding: 20px;
+  color: #111111;
+}
+
+.game-screen {
+  width: 700px;
+  height: 380px;
+  border-left: solid;
+  border-top: solid;
+  border-color: #868686;
+  z-index: 500;
+  position: relative;
+  overflow: hidden;
+  background-color: #e6e6e6;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+
+.game-bg {
+  position: absolute;
+  z-index: 0;
+  height: 100%;
+}
+
+.mainActStyle {
+  position: relative;
+  z-index: 1000;
+  width: 200px;
+  height: 200px;
+  //  border: solid;
+  top: -108px;
+  left: -45px;
+}
+
+.mainCollision {
+  //border: solid;
+  //border-color: green;
+  position: relative;
+  width: 80px;
+  height: 100px;
+  top: 250px;
+  left: 45px;
+}
+.mainAttackCollision {
+  //border: solid;
+  // border-color: #ff3141;
+  position: relative;
+  width: 150px;
+  height: 100px;
+  left: -20px;
+}
+
+.EnemyBullStyle {
+  position: relative;
+  z-index: 1000;
+  width: 120px;
+  height: 120px;
+ // border: solid;
+  top: 160px;
+  left: 700px;
+}
+
+.EnemyBullStyle2 {
+  position: relative;
+  z-index: 1000;
+  width: 120px;
+  height: 120px;
+ // border: solid;
+  top: 160px;
+  left: 1400px;
+}
+
+.EnemyBullStyle3 {
+  position: relative;
+  z-index: 1000;
+  width: 120px;
+  height: 120px;
+ // border: solid;
+  top: 160px;
+  left: 1700px;
+}
+
+.game-content {
+  position: absolute;
+}
+
+.gameWin {
+  position: absolute;
+  z-index: 2000;
+  width: 100%;
+  height: 100%;
+  font-family: 'Press Start 2P', cursive;
+  display: block;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.bgGreen {
+  background-color: rgba($color: #00a72a, $alpha: 0.8);
+}
+.gameOver {
+  position: absolute;
+  z-index: 2000;
+  width: 100%;
+  height: 100%;
+  font-family: 'Press Start 2P', cursive;
+  display: block;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.bgRed {
+  background-color: rgba($color: #690818, $alpha: 0.8);
+}
+
+.fade-in {
+  animation: fadeIn 2.5s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.gameTitle{
+color: white;
+font-family: 'Press Start 2P', cursive;
+font-size: 2rem;
+}
+
+.gameHowTitle{
+  margin-top: 2rem;
+  color: white;
+font-family: 'Press Start 2P', cursive;
+font-size: 1rem;
+}
+
+.gameHow{
+ margin-top: 1rem;
+  color: white;
+font-family: 'Press Start 2P', cursive;
+font-size: 0.8rem;
+}

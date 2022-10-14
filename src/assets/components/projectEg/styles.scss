@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
+.projectEg {
+  background-color: #ffffff;
+  margin: 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.poppins-text {
+  font-family: "Poppins";
+}
+
+.projectHeader {
+  font-family: "Poppins";
+  font-size: 3rem;
+  font-weight: 500;
+  color: #111111;
+}
+
+.projectDes {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.3rem;
+    color: #111111;
+}
+
+.description {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+  color: #111111;
+}
+.projectImg {
+  animation: fadeIn 0.3s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    //opacity: 0;
+   transform: scale(0.6);
+  }
+    100% {
+    //opacity: 1;
+     transform: scale(1);
+  }
+}
+
+
+
+.projectEgText{
+ color: #111111;
+}
+
+.projectEgText:hover{
+ color: #111111;
+}
+
+.projectTech{
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 500;
+}
+
+.cool-link {
+    display: inline-block;
+    color: #111111;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #111111;
+   //transition: width .3s;
+}
+
+.desAni:hover .cool-link::after {
+    width: 100%;
+    transition: width .5s;
+}
+
+
+
+.description {
+    content: '';
+    display: block;
+    margin-top: -100%;
+   //transition: width .3s;
+}
+
+.desAni:hover .description {
+    margin-top:0;
+    transition: margin-top .8s;
+}
+

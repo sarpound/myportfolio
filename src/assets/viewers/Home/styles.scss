@@ -1,0 +1,16 @@
+.sectLanding{
+      /* The image used */
+  background-image: url("../../images/bg.jpg");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg{
+   background-image: linear-gradient(to bottom,rgba(17,17,17,0.85) 0,rgba(17,17,17,1) 90%); /* override background image gradient w/ flat color */
+}

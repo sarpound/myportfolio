@@ -1,0 +1,102 @@
+@font-face {
+ font-family: 'Montnapha';
+  src: local('Montnapha'), url(../../fonts/MontnaphaDEMO-Thin.otf) format('opentype');
+}
+@font-face {
+ font-family: 'Traiyang';
+  src: local('Traiyang'), url(../../fonts/SurafontTraiyangRegular.otf) format('opentype');
+}
+
+
+
+.logoFontHeader {
+font-family:'Traiyang';
+
+}
+
+.resume-button {
+  background-color: rgb(237, 24, 79) !important;
+  border-color: rgb(237, 24, 79) !important;
+}
+
+.HeaderLogoAnimate {
+  font-size: 50px;
+  color: rgb(209, 209, 209);
+  text-transform: uppercase;
+  font-weight: 500 ;
+  transition: all 1s ease-in-out;
+  position: relative;
+
+  &::before {
+    content: attr(data-item);
+    transition: all 1s ease-in-out;
+    color: rgb(237, 24, 79);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+  }
+
+  &:hover {
+    &::before {
+      width: 100%;
+    }
+  }
+}
+
+
+.topnav {
+  overflow: hidden;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 18px;
+  border-bottom: 3px solid transparent;
+
+}
+
+/*.topnav a:hover {
+  //border-bottom: 3px solid rgb(237, 24, 79);
+  .navItem {
+  //color: rgb(237, 24, 79);
+
+}
+
+
+
+}
+
+.topnav a.active {
+ // border-bottom: 3px solid rgb(237, 24, 79);
+}*/
+
+.sticky-wrapper {
+  position: relative;
+  height: 3rem; /* We need to change this value */
+}
+
+.sticky .sticky-inner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.navItem {
+  color: white;
+  font-size: 1rem;
+}
+
+

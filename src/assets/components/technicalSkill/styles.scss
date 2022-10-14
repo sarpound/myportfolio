@@ -1,0 +1,78 @@
+.skill {
+  margin: 0;
+  padding-bottom: 4.5em;
+  background-color: #ffffff;
+}
+
+.poppins-text {
+  font-family: "Poppins";
+}
+
+.techHeader {
+  font-weight: 400;
+  color: rgba($color: #ffffff, $alpha: 0) !important;
+  margin: 0;
+  line-height: 15vw;
+  padding: 0;
+  top: 0.5vw;
+
+}
+.techHeaderBorder {
+   font-size: 7vw;
+  -webkit-text-stroke: 0.1vw #ffffff;
+  overflow: hidden;
+}
+.techHeaderSkill {
+   font-size: 23vw;
+  //-webkit-text-stroke: 0.08rem #111111;
+  color: rgba($color: #ffffff, $alpha: 1) !important;
+  margin: 0;
+}
+.skillHeader {
+  color: rgb(237, 24, 79);
+  font-size: 1.3rem;
+  letter-spacing: 1vw;
+  margin-bottom: 1.5rem;
+}
+
+.skillImageMain {
+  width: 100px;
+  height: 100px;
+}
+
+.skillImage {
+  max-width: 100%;
+  filter: grayscale(100%);
+}
+
+.skillTitleMain {
+  margin-top: 7vw;
+}
+
+.contrast-200 {
+  filter: grayscale(100%) contrast(200%);
+}
+
+.contrast-400 {
+  filter: grayscale(100%) contrast(400%);
+}
+
+.dark-filter {
+  filter: grayscale(100%) brightness(40%) contrast(120%);
+}
+
+.dark-filter-2 {
+  filter: grayscale(100%) brightness(40%) contrast(400%);
+}
+
+/*.skillImage:hover {
+animation: grayscaleFadeOut 0.4s forwards;
+}
+  @keyframes grayscaleFadeOut {
+    from {
+      filter: grayscale(100%);
+    }
+    to {
+      filter: grayscale(0%);
+    }
+  }*/
