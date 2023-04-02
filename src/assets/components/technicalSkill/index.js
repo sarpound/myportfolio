@@ -6,12 +6,12 @@ import Illustrator from "../../images/Adobe_Illustrator_CC.png";
 import Xd from "../../images/Adobe_XD.png";
 import Html from "../../images/HTML5.png";
 import Css from "../../images/CSS.png";
+import Ts from "../../images/typescript.png";
 import Js from "../../images/Js.png";
 import reactImg from "../../images/react.png";
 import redux from "../../images/redux.png";
 import Angular from "../../images/angular.png";
 import Node from "../../images/nodejs.png";
-import Mongo from "../../images/MongoDB.png";
 import Firebase from "../../images/firebase.png";
 import Docker from "../../images/docker.png";
 import Aos from "aos";
@@ -84,7 +84,7 @@ export default function Index() {
             <h2 className="skillHeader poppins-text">FRONTEND</h2>
           </Col>
         </Row>
-        <Row sm>
+        <Row sm className="m-10">
           <Col sm={2} className="skillImageMain">
             <div style={{ textAlign: "center" }}>
               <img
@@ -102,6 +102,16 @@ export default function Index() {
                 src={Css}
                 alt="Css"
                 title="CSS"
+              />
+            </div>
+          </Col>
+          <Col sm={2} className="skillImageMain">
+            <div style={{ textAlign: "center" }}>
+              <img
+                className="skillImage  dark-filter"
+                src={Ts}
+                alt="Typescripte"
+                title="Typescripte"
               />
             </div>
           </Col>
@@ -166,16 +176,6 @@ export default function Index() {
             <div style={{ textAlign: "center" }}>
               <img
                 className="skillImage dark-filter"
-                src={Mongo}
-                alt="MongoDB"
-                title="MongoDB"
-              />
-            </div>
-          </Col>
-          <Col sm={2} className="skillImageMain">
-            <div style={{ textAlign: "center" }}>
-              <img
-                className="skillImage dark-filter"
                 src={Firebase}
                 alt="Firebase"
                 title="Firebase"
@@ -188,7 +188,7 @@ export default function Index() {
                 className="skillImage dark-filter"
                 src={Docker}
                 alt="Docker"
-                title="Docker"
+                title="Docker (fundamental)"
               />
             </div>
           </Col>

@@ -3,10 +3,10 @@ import "./styles.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import { TimelineMax, Power2, TweenMax, SteppedEase } from "gsap";
 import { Link } from "react-scroll";
-import {isGameStart } from "../../redux/actions";
+import { isGameStart } from "../../redux/actions";
 import { useDispatch } from "react-redux";
 export default function Index() {
-    const dispatch = useDispatch();
+  const dispatch = useDispatch();
   React.useEffect(() => {
     var typewriter = new TimelineMax({
       paused: true,
@@ -50,11 +50,11 @@ export default function Index() {
   }, []);
 
   return (
-    <div className="landing" onClick={()=>{
-        dispatch(isGameStart(false))
-      }}>
+    <div className="landing" onClick={() => {
+      dispatch(isGameStart(false))
+    }}>
       <Container className="landingBox">
-        <Row sm style={{ margin: 0, flex:1}}>
+        <Row sm style={{ margin: 0, flex: 1 }}>
           <Col
             sm
             className="d-flex justify-content-center align-items-center px-0"

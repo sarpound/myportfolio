@@ -33,7 +33,7 @@ export default function Index() {
               <div
                 className={"yearText"}
               >
-                <h1>2020</h1>
+                <p>2020</p>
                 <p>1 June - 31 July 2020</p>
                 <p>Web developer (Internship)</p>
               </div>
@@ -52,8 +52,8 @@ export default function Index() {
               <div
                 className={"yearText"}
               >
-                <h1>2021</h1>
-                <p>Oct 2021 - present</p>
+                <p>2021</p>
+                <p>Oct 2021 - 30 April 2023</p>
                 <p>Software Engineer (Front-end team)</p>
               </div>
               <img

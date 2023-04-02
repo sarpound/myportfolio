@@ -26,12 +26,12 @@ export default function Index() {
                 className="d-flex justify-content-center align-items-center"
               >
                 <h2 className="projectHeader" data-aos="zoom-in">
-                  My Projects
+                  My University Projects
                 </h2>
               </Col>
               <Col sm className="d-flex align-items-center">
                 <p className="projectDes">
-                  Here are my projects I have designed and developed by myself.
+                  Here are my projects I have designed and developed by myself when I was in university.
                 </p>
               </Col>
             </Row>
@@ -226,59 +226,6 @@ export default function Index() {
                             the University.I would like to create a gambling
                             game call "pokdeng" because I think this project
                             will help me to improve my logic of the coding.
-                          </p>
-                        </Col>
-                      </Row>
-                    </Col>
-                  </Row>
-                </a>
-                <a href="https://bookbookonlinestore.000webhostapp.com/">
-                  <Row
-                    className="pb-5 projectEgText desAni"
-                    onMouseEnter={() => {
-                      dispatch(projectImg("book"));
-                      dispatch(projectHover(true));
-                    }}
-                    onMouseLeave={() => {
-                      dispatch(projectHover(false));
-                    }}
-                  >
-                    <Col sm={9} className="cool-link">
-                      <Row>
-                        <Col xs>
-                          <h1 className="poppins-text ">Book Book</h1>
-                        </Col>
-                      </Row>
-                      <Row className="font-weight-bold projectTech">
-                        <Col xs>
-                          <ul style={{ padding: 0, margin: 0 }}>
-                            <li style={{ display: "inline", marginRight: 20 }}>
-                              Html
-                            </li>
-                            <li style={{ display: "inline", marginRight: 20 }}>
-                              CSS
-                            </li>
-                            <li style={{ display: "inline", marginRight: 20 }}>
-                              PHP
-                            </li>
-                            <li style={{ display: "inline", marginRight: 20 }}>
-                              MySql
-                            </li>
-                          </ul>
-                        </Col>
-                      </Row>
-                      <Row>
-                        <Col xs className="overflow-hidden">
-                          <p className="description">
-                            This project is a part of ITS322 Database Systems.
-                            This is my first project in my university that I
-                            have developed a website by myself. Why do I choose
-                            to develop an online book store? I think an online
-                            book store It's has a lot of features. It makes me
-                            have to learn more about system of online stores.
-                            How can I design an ER diagram for my website's
-                            database to get the best interactive for the
-                            customers.
                           </p>
                         </Col>
                       </Row>
