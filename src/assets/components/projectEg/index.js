@@ -26,7 +26,7 @@ export default function Index() {
                 className="d-flex justify-content-center align-items-center"
               >
                 <h2 className="projectHeader" data-aos="zoom-in">
-                  My University Projects
+                  My Projects
                 </h2>
               </Col>
               <Col sm className="d-flex align-items-center">

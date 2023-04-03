@@ -14,18 +14,18 @@ function App() {
     setLoaded(true);
   }
 
-  if (!loaded) {
-    return (
-      <React.Fragment>
-      <div className="loading">
-        <div className="loading-text">
-        Loading
-        <span className="dot">.</span><span class="dot">.</span><span class="dot">.</span>
-        </div>
-      </div>
-      </React.Fragment>
-    );
-  }
+  // if (!loaded) {
+  //   return (
+  //     <React.Fragment>
+  //     <div className="loading">
+  //       <div className="loading-text">
+  //       Loading
+  //       <span className="dot">.</span><span class="dot">.</span><span class="dot">.</span>
+  //       </div>
+  //     </div>
+  //     </React.Fragment>
+  //   );
+  // }
 
   return (
     <>
